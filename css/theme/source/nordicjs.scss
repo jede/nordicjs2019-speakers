@@ -1,0 +1,92 @@
+/**
+ * Black theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+// Default mixins and settings -----------------
+@import '../template/mixins';
+@import '../template/settings';
+// ---------------------------------------------
+
+// Include theme-specific fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:500|Source+Sans+Pro:900&display=swap');
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #011a3d;
+
+$mainColor: #fff;
+$mainFont: 'Roboto Mono', monospace;
+$linkColor: #027cce;
+$linkColorHover: lighten($linkColor, 20%);
+$headingColor: $mainColor;
+$headingFont: 'Source Sans Pro', sans-serif;
+$headingFontWeight: 900;
+$headingTextShadow: none;
+$headingTextTransform: none;
+$headingLetterSpacing: normal;
+$selectionBackgroundColor: #027cce;
+
+$mainFontSize: 60px;
+$heading1Size: 110px;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1em;
+
+// Theme template ------------------------------
+@import '../template/theme';
+// ---------------------------------------------
+//
+
+/* Slide-specific vertical centering override */
+.reveal .slides section[data-vertical-align-top] {
+  top: 0 !important;
+}
+.reveal .slides {
+  text-align: right;
+}
+
+.header-background__shapes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.header-background__shape-blob1 {
+  position: absolute;
+  width: 78%;
+  height: auto;
+  right: -28%;
+  top: 19%;
+  z-index: 5;
+}
+
+.header-background__shape-blob1 .cls-1 {
+  fill: #208bc6;
+  fill: #e9490b;
+}
+
+.header-background__shape-blob2 {
+  position: absolute;
+  height: auto;
+  bottom: -17%;
+  z-index: 500;
+  left: -22%;
+  width: 77%;
+}
+
+.header-background__shape-blob2 .cls-1 {
+  fill: #e9490b;
+  fill: #fff1a2;
+}
+
+.header-background__logo {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  right: 15%;
+  z-index: 5;
+}

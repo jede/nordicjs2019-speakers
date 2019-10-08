@@ -1,49 +1,356 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/nordicjs.css" />
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css" />
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? 'css/print/pdf.css'
+        : 'css/print/paper.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+    <div class="header-background__shapes">
+      <div class="header-background__shape-blob1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 397.16 525.31">
+          <defs><style></style></defs>
+          <title>Asset 17</title>
+          <g id="Layer_2" data-name="Layer 2">
+            <g id="Layer_2-2" data-name="Layer 2">
+              <path
+                class="cls-1"
+                d="M310.716286,63.1382249 C336.621286,87.0332249 362.178286,112.266225 378.859286,143.312225 C395.539286,174.356225 402.375286,212.425225 389.323286,245.162225 C378.303286,272.799225 354.022,295.547 327,308 C272.399,333.162 203.848,331.906 146,321 C103.94,313.07 65.644,294.163 38,261 C13.681,231.824 -1.084,193.027 1,155 C3.296,113.086 21.388,73.134 51,44 C90.988,4.658 166.966391,-7.02343019 219.708286,5.73622491 C258,15 289.177286,43.2722249 310.716286,63.1382249 Z"
+              />
+            </g>
+          </g>
+        </svg>
+      </div>
 
-		<script src="js/reveal.js"></script>
+      <div class="header-background__shape-blob2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 343.33 454.18">
+          <defs><style></style></defs>
+          <title>Asset 18</title>
+          <g id="Layer_2" data-name="Layer 2">
+            <g id="Layer_2-2" data-name="Layer 2">
+              <path
+                class="cls-1"
+                d="M104.1644,0.252422527 C152.4164,-3.51957747 191.5634,36.0374225 236.7664,48.4494225 C278.2444,59.8384225 320.0794,71.3204225 335.6344,117.632423 C351.0354,163.485423 325.5894,200.514423 284.4604,219.084423 C238.5494,239.813423 204.8864,248.207423 165.2354,281.732423 C139.3124,303.651423 88.2776175,361.770524 49.6294001,353.947423 C-29.1551385,338 3.15059399,218.397553 29.4051615,114.42 C55.8795876,9.57172791 83.6130355,1.8586414 104.1644,0.252422527 Z"
+              />
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div class="header-background__logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820.29 139.11">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: white;
+              }
+            </style>
+          </defs>
+          <title>Asset 19</title>
+          <g id="Layer_2" data-name="Layer 2">
+            <g id="Layer_2-2" data-name="Layer 2">
+              <path
+                id="Combined-Shape"
+                class="cls-1"
+                d="M0,10.44H22.4L47.62,58.75l9.64,21.47h.6c-1-10.29-2.82-24-2.82-35.49V10.44H75.81v97.21H53.41L28.19,59.19,18.69,38H18.1c1,10.73,2.82,23.71,2.82,35.19v34.44H0ZM120.68,31.91c18.55,0,35.76,14.16,35.76,38.76s-17.21,38.77-35.76,38.77-35.9-14.16-35.9-38.77S102,31.91,120.68,31.91Zm0,59.79c8.91,0,13.51-8.2,13.51-21s-4.6-21-13.51-21-13.5,8.2-13.5,21S111.64,91.7,120.68,91.7Zm42.86-58h17.81l1.48,13h.59c5.35-10,13.36-14.76,20.92-14.76a20.9,20.9,0,0,1,8.75,1.49l-3.56,18.93a27.51,27.51,0,0,0-8-1.19c-5.49,0-12.31,3.58-16.17,13.57v42.94H163.54Zm80-1.79c8.16,0,13.05,3,18.1,7.75l-.89-11.33V3.13h21.8V107.65h-17.8l-1.48-7.3h-.6c-5.19,5.22-12.46,9.09-19.58,9.09-18.25,0-30.11-14.61-30.11-38.77S227.93,31.91,243.51,31.91Zm5.19,59.64c4.75,0,8.46-1.79,12-6.71V54.57a17.38,17.38,0,0,0-12.17-4.77c-7,0-13.2,6.56-13.2,20.58C235.35,85,240.24,91.55,248.7,91.55Zm47.64,16.1V33.7h21.8v74Zm-1.78-96.32C294.56,4.62,299.9,0,307.17,0s12.61,4.62,12.61,11.33-5.2,11.48-12.61,11.48S294.56,18,294.56,11.33Zm71,20.58c9,0,16.62,3.43,21.51,8.5L377.11,54c-3.56-3-6.82-4.32-10.23-4.32-10.54,0-17.21,8.2-17.21,21s7,21,16.47,21c5.34,0,9.64-2.54,13.2-5.37l8.75,13.87a38.07,38.07,0,0,1-24.48,9.24c-20.47,0-36.34-14.16-36.34-38.77S345.22,31.91,365.54,31.91Zm43.53,50c7.57,0,13.2,6,13.2,13.86s-5.63,13.72-13.2,13.72-13.2-6-13.2-13.72S401.5,81.86,409.07,81.86Zm51.52-49.95c8.16,0,13.06,3,18.1,7.75l-.89-11.33V3.13h21.81V107.65h-17.8l-1.49-7.3h-.59c-5.19,5.22-12.46,9.09-19.58,9.09C441.9,109.44,430,94.83,430,70.67S445,31.91,460.59,31.91Zm5.19,59.64c4.75,0,8.46-1.79,12-6.71V54.57a17.37,17.37,0,0,0-12.16-4.77c-7,0-13.21,6.56-13.21,20.58C452.43,85,457.33,91.55,465.78,91.55ZM544,31.91c20.92,0,31.3,15.36,31.3,35.48a43.34,43.34,0,0,1-.89,9.25H530.3c1.93,11.18,9.35,16.1,19.14,16.1,5.49,0,10.53-1.64,15.87-4.92l7.27,13.27a47.92,47.92,0,0,1-26.11,8.35c-21.06,0-37.23-14.31-37.23-38.77C509.24,46.67,526.3,31.91,544,31.91Zm12.76,31.16c0-8.5-3.56-14.46-12.31-14.46-6.83,0-12.76,4.62-14.25,14.46ZM588.1,85.44c6.68,5.07,12.76,7.75,19,7.75,6.53,0,9.35-2.39,9.35-6.26,0-4.92-7.42-7.16-15-10.14C592.55,73.36,582,67.25,582,55c0-13.72,11.13-23.11,28.19-23.11,11.27,0,19.58,4.62,26,9.39l-9.79,13.12C621,50.54,616,48.16,610.8,48.16c-5.64,0-8.31,2.09-8.31,5.81,0,4.78,6.83,6.57,14.39,9.4,9.35,3.43,19.88,8.65,19.88,22.21s-10.53,23.86-30.26,23.86c-9.64,0-20.77-4.17-28.19-10.29Zm57.47,22.21V33.7h21.81v74Zm41-2.23v-.6a14.22,14.22,0,0,1-6.82-12.53c0-5.36,3.56-10.58,8.31-13.86v-.6a23.68,23.68,0,0,1-9.94-19.23c0-17.75,14.54-26.69,30.41-26.69a33.84,33.84,0,0,1,11.42,1.79h26.85V49.65H735.07a19.75,19.75,0,0,1,2.38,9.69c0,17-12.76,24.9-28.93,24.9a29,29,0,0,1-8.9-1.49A6.29,6.29,0,0,0,697,88.27c0,3.73,3,5.52,11.12,5.52h11.87c18.1,0,28,5.51,28,18.78,0,15.36-15.87,26.54-41.09,26.54-17.21,0-30.86-5.66-30.86-18.78C676,114.21,679.74,109.29,686.56,105.42Zm23.74,20c9.79,0,16.91-4,16.91-9.1,0-4.62-4-5.82-11.27-5.82h-7.57a42.43,42.43,0,0,1-10.38-.89c-2.68,2.39-4,4.62-4,7.31C694,122.41,700.51,125.4,710.3,125.4ZM643.8,11.33C643.8,4.62,649.14,0,656.4,0,663.82,0,669,4.62,669,11.33s-5.19,11.48-12.61,11.48C649.14,22.81,643.8,18,643.8,11.33ZM718.61,58.6c0-7.76-4.31-11.93-10.09-11.93s-10.09,4-10.09,11.93c0,8.2,4.3,12.37,10.09,12.37S718.61,66.8,718.61,58.6ZM754,33.7h17.81l1.48,9.39h.59c6.24-6,13.65-11.18,23.59-11.18,16,0,22.85,11.33,22.85,29.82v45.92H798.48V64.56c0-10.73-2.82-14-9.05-14-5.49,0-8.9,2.53-13.65,7.15v50H754Z"
+              ></path>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div class="reveal">
+      <div class="slides">
+        <section></section>
+        <section data-vertical-align-top>
+          <h1>Prem Krishnamurthy</h1>
+          <p>Ways of Graphic Design-ing</p>
+        </section>
+        <section></section>
+        <section data-vertical-align-top>
+          <h1>Diamond Ho</h1>
+          <p>How to run a design sprint without a panic attack</p>
+        </section>
+        <section></section>
+        <section data-vertical-align-top>
+          <h1>Agatha Yu</h1>
+          <p>Building a new interaction grammar with XR input</p>
+        </section>
+        <section></section>
+        <section data-vertical-align-top>
+          <h1>Laura Kalbag</h1>
+          <p>Disruptive Design: Harmful Patterns and Bad Practice</p>
+        </section>
+        <section></section>
+        <section data-vertical-align-top>
+          <h1>Andreas Olsson</h1>
+          <p>Eye tracking the user experience – should you?</p>
+        </section>
+        <section></section>
+        <section data-vertical-align-top>
+          <h1>Ricardo Vazquez</h1>
+          <p>We Are Systems</p>
+        </section>
+        <section></section>
+        <section data-vertical-align-top>
+          <h1>Sophie Tahran</h1>
+          <p>The Art and Science of Naming</p>
+        </section>
+        <section></section>
+        <section data-vertical-align-top>
+          <h1>Caroline Sinders</h1>
+          <p>Designing for Transparency in Machine Learning</p>
+        </section>
+        <section></section>
+        <section data-vertical-align-top>
+          <h1>Jack Morgan</h1>
+          <p>Designing for 1.2 Billion&nbsp;People</p>
+        </section>
+        <section></section>
+        <section data-vertical-align-top>
+          <h1>Vitaly Friedman</h1>
+          <p>Bringing Personality Back To The Web</p>
+        </section>
+        <section></section>
+        <section data-vertical-align-top>
+          <h1>Thank you!</h1>
+          <p><3<3<3</p>
+        </section>
+        <section></section>
+      </div>
+    </div>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
-			});
-		</script>
-	</body>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        width: 1080,
+        height: 1920,
+        margin: 0.1,
+        controls: false,
+        dependencies: [
+          {src: 'plugin/markdown/marked.js'},
+          {src: 'plugin/markdown/markdown.js'},
+          {src: 'plugin/notes/notes.js', async: true},
+          {src: 'plugin/highlight/highlight.js', async: true},
+        ],
+      });
+    </script>
+    <script src="https://d2wd18kp3k18ix.cloudfront.net/nordicjs2019/anime.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+      window.onload = function() {
+        //header-background__shape-blob2
+
+        let BLOB2_SHAPE1 =
+          'M104.1644,0.252422527 C152.4164,-3.51957747 191.5634,36.0374225 236.7664,48.4494225 C278.2444,59.8384225 320.0794,71.3204225 335.6344,117.632423 C351.0354,163.485423 325.5894,200.514423 284.4604,219.084423 C238.5494,239.813423 204.8864,248.207423 165.2354,281.732423 C139.3124,303.651423 88.2776175,361.770524 49.6294001,353.947423 C-29.1551385,338 3.15059399,218.397553 29.4051615,114.42 C55.8795876,9.57172791 83.6130355,1.8586414 104.1644,0.252422527 Z';
+        let BLOB2_SHAPE2 =
+          'M122,10.2524225 C169.140688,-2.6687089 219.797,-2.15957747 265,10.2524225 C292.652,17.8450892 309.318667,55.9009484 315,124.42 C315,175.428243 315,216.621576 315,248 C315,292.180091 276.651,350.475 237,384 C211.077,405.919 120.648217,409.823102 82,402 C3.21546141,386.052577 -14.2545675,244.977553 12,141 C38.4744261,36.1517279 88,19.5717279 122,10.2524225 Z';
+
+        $('.header-background__shape-blob2 .cls-1').attr('d', BLOB2_SHAPE1);
+
+        var morphing = anime({
+          targets: '.header-background__shape-blob2 .cls-1',
+          d: [{value: BLOB2_SHAPE2}, {value: BLOB2_SHAPE1}],
+          easing: 'easeInOutSine',
+          duration: 20000,
+          loop: true,
+        });
+
+        let BLOB1_SHAPE1 =
+          'M310.716286,63.1382249 C336.621286,87.0332249 362.178286,112.266225 378.859286,143.312225 C395.539286,174.356225 402.375286,212.425225 389.323286,245.162225 C378.303286,272.799225 354.022,295.547 327,308 C272.399,333.162 203.848,331.906 146,321 C103.94,313.07 65.644,294.163 38,261 C13.681,231.824 -1.084,193.027 1,155 C3.296,113.086 21.388,73.134 51,44 C90.988,4.658 166.966391,-7.02343019 219.708286,5.73622491 C258,15 289.177286,43.2722249 310.716286,63.1382249 Z';
+        let BLOB1_SHAPE2 =
+          'M429,72.2038993 C454.905,96.0988993 494.319,139.954 511,171 C527.68,202.044 538.052,305.263 525,338 C513.98,365.637 456.022,480.547 429,493 C374.399,518.162 237.410928,474.779677 197,430 C160,389 140.801563,299.741511 109,269 C79,240 -6,194 1,139 C8.36656688,81.1198316 64.388,46.134 94,17 C133.988,-22.342 259.161474,21.1804691 311.90337,33.9401242 C350.195084,43.2038993 407.461,52.3378993 429,72.2038993 Z';
+
+        $('.header-background__shape-blob1 .cls-1').attr('d', BLOB1_SHAPE1);
+
+        var morphing = anime({
+          targets: '.header-background__shape-blob1 .cls-1',
+          d: [{value: BLOB1_SHAPE2}, {value: BLOB1_SHAPE1}],
+          easing: 'easeInOutSine',
+          duration: 16000,
+          delay: 3000,
+          loop: true,
+        });
+
+        $('.header-background__shape-rings')
+          .clone()
+          .appendTo('.speakers-section')
+          .attr('class', 'speakers-section__shape-rings shape-rings--light');
+
+        $('.shapes.shapes--blob1').each(function(i, elem) {
+          var $path = $(elem).find('.cls-1');
+
+          var container = $('<div></div>')
+            .attr('class', 'shape-container-blob1')
+            .appendTo(elem);
+
+          $('.header-background__shape-blob1')
+            .clone()
+            .appendTo(container)
+            .attr('class', 'shape-blob1')
+            .find('svg')[0] // Jonnys fulfix
+            .setAttribute('viewBox', '0 0 690 650'); // Jonnys fulfix
+        });
+
+        $('.shapes.shapes--blob2').each(function(i, elem) {
+          var container = $('<div></div>')
+            .attr('class', 'shape-container-blob2')
+            .appendTo(elem);
+
+          $('.header-background__shape-blob2')
+            .clone()
+            .appendTo(container)
+            .attr('class', 'shape-blob2');
+        });
+
+        $('.shapes.shapes--blob3').each(function(i, elem) {
+          var container = $('<div></div>')
+            .attr('class', 'shape-container-blob3')
+            .appendTo(elem);
+
+          $('.intro-section__shape-blob3')
+            .clone()
+            .appendTo(container)
+            .attr('class', 'shape-blob3');
+        });
+
+        $('.shapes.shapes--rings1').each(function(i, elem) {
+          var container = $('<div></div>')
+            .attr('class', 'shape-container-rings1')
+            .appendTo(elem);
+
+          $('.header-background__shape-rings')
+            .clone()
+            .appendTo(container)
+            .attr('class', 'shape-rings1');
+        });
+
+        /* NYTT */
+        $('.shape-blob1').each(function(i, elem) {
+          var $path = $(elem).find('.cls-1');
+          $path.attr('d', BLOB1_SHAPE1);
+
+          var morphing = anime({
+            targets: $path[0],
+            d: [{value: BLOB1_SHAPE2}, {value: BLOB1_SHAPE1}],
+            easing: 'easeInOutSine',
+            duration: 8000,
+            delay: 1500,
+            loop: true,
+          });
+        });
+        $('.shape-blob2').each(function(i, elem) {
+          var $path = $(elem).find('.cls-1');
+          $path.attr('d', BLOB2_SHAPE1);
+
+          var morphing = anime({
+            targets: $path[0],
+            d: [{value: BLOB2_SHAPE2}, {value: BLOB2_SHAPE1}],
+            easing: 'easeInOutSine',
+            duration: 8000,
+            delay: 1500,
+            loop: true,
+          });
+        });
+        $('.shape-blob3').each(function(i, elem) {
+          var $path = $(elem).find('.cls-1');
+          $path.attr('d', BLOB1_SHAPE1);
+
+          var morphing = anime({
+            targets: $path[0],
+            d: [{value: BLOB1_SHAPE2}, {value: BLOB1_SHAPE1}],
+            easing: 'easeInOutSine',
+            duration: 8000,
+            delay: 1500,
+            loop: true,
+          });
+        });
+
+        (function() {
+          if (window.Intercom !== undefined) {
+            Intercom('update', {hide_default_launcher: true});
+          }
+
+          var updateVisibleSchedule = function() {
+            var hash = window.location.hash;
+
+            $('.schedule-slot').hide();
+            if (hash == '#p1') {
+              $('.schedule-slot')
+                .slice(0, 5)
+                .show();
+            } else if (hash == '#p2') {
+              $('.schedule-slot')
+                .slice(5, 10)
+                .show();
+            } else if (hash == '#p3') {
+              $('.schedule-slot')
+                .slice(10, 14)
+                .show();
+            } else if (hash == '#p4') {
+              $('.schedule-slot')
+                .slice(14, 18)
+                .show();
+            } else if (hash == '#p5') {
+              $('.schedule-slot')
+                .slice(17, 22)
+                .show();
+            } else if (hash == '#p6') {
+              $('.schedule-slot')
+                .slice(22, 27)
+                .show();
+            } else if (hash == '#p7') {
+              $('.schedule-slot')
+                .slice(26, 31)
+                .show();
+            } else if (hash == '#p8') {
+              $('.schedule-slot')
+                .slice(31, 35)
+                .show();
+            } else if (hash == '#p9') {
+              $('.schedule-slot')
+                .slice(35, 40)
+                .show();
+            } else if (hash == '#p10') {
+              $('.schedule-slot')
+                .slice(38, 42)
+                .show();
+            } else if (hash == '#p11') {
+              $('.schedule-slot')
+                .slice(42, 47)
+                .show();
+            }
+          };
+
+          updateVisibleSchedule();
+          window.onhashchange = updateVisibleSchedule;
+        })();
+      };
+    </script>
+  </body>
 </html>
